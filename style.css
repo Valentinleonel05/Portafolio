@@ -162,6 +162,12 @@ margin:0 auto;
 grid-column:1 / -1;
 }
 
+@media (min-width: 769px) {
+    .project-cm {
+        grid-row: 2;
+    }
+}
+
 .project .img{
 width:480px;
 height:380px;
